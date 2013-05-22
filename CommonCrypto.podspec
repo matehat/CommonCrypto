@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CommonCrypto"
-  s.version      = "1.0"
+  s.version      = "1.0.1"
   s.summary      = "A simple cryptographic tool."
   s.description  = <<-DESC
   This implements a category on NSData for performing digest, HMAC, and cryptographic operations on the contents of the receiver, all of which are based on the CommonCrypto C API.
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/matehat/CommonCrypto"
   s.license      = 'MIT'
   s.author       = { "Jim Dovey" => "jimdovey@mac.com" }
-  s.source       = { :git => "https://github.com/matehat/CommonCrypto.git" }
+  s.source       = { :git => "https://github.com/matehat/CommonCrypto.git", :tag => 'v1.0.1' }
   s.source_files = 'NSData+CommonCrypto.{h,m}'
   s.public_header_files = '*.h'
 end
